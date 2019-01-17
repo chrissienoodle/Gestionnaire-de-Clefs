@@ -21,7 +21,7 @@
 <body>
     <header class="flex-container">
         <div class="col-2"></div>
-<%-- button de déconnexion de la session --%>
+<%-- titre de la page --%>
         <div class="col-8">
             <div class="flex-container">
                 <h1>GestTrousseau</h1>
@@ -79,7 +79,7 @@
                     <div class="dropdown-item">
                         <form method="POST" action="personne">
                             <div class="form-group flex-container">
-                                <label class="dropdown-item">Ajouter un utilisateur</label>
+                                <label >Ajouter un utilisateur</label>
                                 <input type="hidden" name="choix" value="AJOUT">
                             </div>
                             <div class="form-group flex-container">
