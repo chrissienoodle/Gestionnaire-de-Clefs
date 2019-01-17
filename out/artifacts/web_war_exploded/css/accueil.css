@@ -1,0 +1,46 @@
+#main{
+    background-image: url("imgs/bg.png");
+    background-size: cover;
+    height: 100%;
+    align-items: flex-start !important;
+    padding: 40px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 75%;
+}
+
+header{
+    height: 25%;
+    padding-top: 40px;
+}
+
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    justify-self: center;
+}
+
+h1, h2, p, form{
+    text-align: center;
+}
+
+p{
+    padding: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+}
